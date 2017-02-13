@@ -28,6 +28,9 @@
     "type": "",
     "url": ""
   },
+  "engines":{
+    "node": "5.11.1"
+  },
   "license": "UNLICENSED",
   "description": "loopback-getting-started"
 }
