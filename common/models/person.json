@@ -1,10 +1,7 @@
 {
   "name": "Person",
-  "base": "PersistedModel",
+  "base": "User",
   "idInjection": true,
-  "options": {
-    "validateUpsert": true
-  },
   "properties": {
     "name": {
       "type": "string",
