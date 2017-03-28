@@ -11,7 +11,7 @@ module.exports = function(Person) {
     var options = {
       type: 'email',
       to: user.email,
-      from: 'noreply@loopback.com',
+      from: 'gonza.digiovanni@gmail.com',
       subject: 'Thanks for registering.',
       template: path.resolve(__dirname, '../../server/views/verify-email.ejs'),
       redirect: 'http://localhost:5000/login',
