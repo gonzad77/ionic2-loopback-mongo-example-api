@@ -29,6 +29,9 @@
     "dataSource": "mongodb",
     "public": false
   },
+  "Email": {
+   "dataSource": "emailDs"
+ },
   "Person": {
     "dataSource": "mongodb",
     "public": true

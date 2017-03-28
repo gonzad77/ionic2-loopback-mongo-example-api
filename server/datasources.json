@@ -1,5 +1,8 @@
 {
   "mongodb":{
     "connector": "memory"
+  },
+  "emailDs": {
+    "name": "emailDs"
   }
 }
