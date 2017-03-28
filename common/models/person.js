@@ -13,7 +13,7 @@ module.exports = function(Person) {
       to: user.email,
       from: 'noreply@loopback.com',
       subject: 'Thanks for registering.',
-      template: path.resolve(__dirname, '../../server/views/verify.ejs'),
+      template: path.resolve(__dirname, '../../server/views/verify-email.ejs'),
       redirect: 'http://localhost:5000/login',
       user: user
     };

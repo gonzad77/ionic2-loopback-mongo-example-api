@@ -44,6 +44,7 @@ import { CommonModule } from '@angular/common';
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CookieBrowser } from './storage/cookie.browser';
 import { StorageBrowser } from './storage/storage.browser';
+import { EmailApi } from './services/custom/Email';
 import { PersonApi } from './services/custom/Person';
 import { PetApi } from './services/custom/Pet';
 /**
@@ -75,6 +76,7 @@ export class SDKBrowserModule {
         LoggerService,
         JSONSearchParams,
         SDKModels,
+        EmailApi,
         PersonApi,
         PetApi,
         internalStorageProvider,
