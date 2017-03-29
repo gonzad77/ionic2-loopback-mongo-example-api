@@ -14,7 +14,7 @@ module.exports = function(Person) {
       from: 'gonza.digiovanni@gmail.com',
       subject: 'Thanks for registering.',
       template: path.resolve(__dirname, '../../server/views/verify-email.ejs'),
-      redirect: 'https://angular2-loopback-mongo-web.herokuapp.com/login',
+      redirect: 'https://angular2-loopback-mongo-web.herokuapp.com/#/login',
       user: user,
       host: 'ionic2-loopback-mongo-api.herokuapp.com',
       protocol: 'https',
