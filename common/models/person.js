@@ -16,6 +16,9 @@ module.exports = function(Person) {
       template: path.resolve(__dirname, '../../server/views/verify-email.ejs'),
       redirect: 'http://localhost:5000/login',
       user: user,
+      host: 'ionic2-loopback-mongo-api.herokuapp.com',
+      protocol: 'https',
+      port: 443
     };
 
     user.verify(options, function(err, response) {
