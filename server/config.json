@@ -1,6 +1,7 @@
 {
   "restApiRoot": "/api",
-  "host": "ionic2-loopback-mongo-api.herokuapp.com",
+  "host": "0.0.0.0",
+  "port": 3000,
   "remoting": {
     "context": false,
     "rest": {
